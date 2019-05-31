@@ -7,6 +7,5 @@ def second_challenge
   }
 
        #code your solution here!
-return groceries.values
-bindind.pry
+return (groceries.values).flatten
 end
