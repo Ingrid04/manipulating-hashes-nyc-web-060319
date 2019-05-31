@@ -12,9 +12,10 @@ def first_challenge
       favorite_icecream_flavors: ["strawberry", "cookie dough", "mint chip"]
     }
   }
-     "Freddy Mercury".delete_if{:favorite_icecream_flavors ==  "strawberry"}      #your code here
+     contacts["Freddy Mercury"].delete_if{|:favorite_icecream_flavors|  ==  "strawberry"}      #your code here
  
   #remember to return your newly altered contacts hash!
    return contacts
 end
+scores.delete_if {|score| score < 80 }
 
