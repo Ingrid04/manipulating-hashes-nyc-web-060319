@@ -13,7 +13,7 @@ def first_challenge
     }
   }
      contacts.delete_if{:favorite_icecream_flavors{"strawberry"}}      #your code here
-  } 
+ 
   #remember to return your newly altered contacts hash!
    return contacts
 end
