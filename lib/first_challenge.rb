@@ -12,8 +12,8 @@ def first_challenge
       favorite_icecream_flavors: ["strawberry", "cookie dough", "mint chip"]
     }
   }
-     contacts.delete_if{{:favorite_icecream_flavors =>{0}}}      #your code here
-   }  
+     contacts.delete_if{:favorite_icecream_flavors =>{0}}      #your code here
+    
   #remember to return your newly altered contacts hash!
    return contacts
 end
