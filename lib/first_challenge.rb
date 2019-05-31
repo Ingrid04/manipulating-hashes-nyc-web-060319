@@ -17,5 +17,5 @@ def first_challenge
   #remember to return your newly altered contacts hash!
    return contacts
 end
-scores.delete_if {|score| score < 80 }
+
 
